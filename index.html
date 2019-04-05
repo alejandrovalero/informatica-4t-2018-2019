@@ -1,4 +1,3 @@
-
 <!doctype html>
 <html lang="en">
   <head>
@@ -46,26 +45,50 @@
     <div class="container">
 
       <div class="starter-template">
-        <h1 class="modificar_color"><br>Benvinguts !</h1>
-        <p class="lead">a la meva pàgina web personal </p>
+        <h1><br>BENVINGUTS!</h1>
+        <p class="lead">a la meva pàgina personal </p>
         <p>
             <br> 
             de l'assignatura d'informàtica de 4t d'ESO
-        </p>
+        </p>		
       </div>
-
+			<h2>Funciona el JavaScript / jquery ? </h2>
+			
+			<p style="background:red" >text de color<p/>
+			
+			<p class="fons1" >paràgraf 1<p/>
+			
+			<p class="fons2" >paràgraf 2<p/>
+			
     </div><!-- /.container -->
-
-
-    <!-- Bootstrap core JavaScript
+	
+	<!-- apliquem estils -->
+   	
+	<style>
+		.fons1
+		{ 
+			background:green ;
+			font-size: 22px ;
+		}
+		
+		.fons2
+		{
+			background:grey ;
+			font-size: 24px ;
+		}
+		
+	
+	</style>
+	
+	<!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="js/jquery-3.3.1.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
+    <script src="js/jquery-3.3.1.js"></script>
     <script src="js/bootstrap.js"></script>
-    
-    <script>
-      
-  $('p').hover(
+	
+	 
+	<script>
+	$('p').hover(
 	
 		function()
 		{ 
@@ -77,9 +100,6 @@
 			$(this).addClass('fons2').removeClass('fons1') 
 		}
 		)
-      
-    </script>  
-    
-    
+	</script>
   </body>
 </html>
