@@ -65,15 +65,18 @@
     
     <script>
       
-      $( document ).ready(function() {
-        
-            $(".modificar_color").on("mouseover", function() {
-                $(this).css("color", "red");
-            }).on("mouseout", function() {
-                  $(this).css("color", "blue");
-            });
-      
-      });
+  $('p').hover(
+	
+		function()
+		{ 
+			$(this).addClass('fons1').removeClass('fons2') 
+		}
+		,  
+		function()
+		{ 
+			$(this).addClass('fons2').removeClass('fons1') 
+		}
+		)
       
     </script>  
     
